@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2VlhiQldPd11dX2tWfFN0RnNcdVx5flVDcC0sT3RfQF5iSHxbdkBgWX1WeXVTRA==");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your license key");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
